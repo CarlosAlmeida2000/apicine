@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Sala",
+    "description": "Una Sala",
+    "type": "object",
+    "properties": {
+        "nombre": {"type": "string", "maxLength":50},
+        "estado": {"type": "integer"}
+    },
+    "required": ["nombre"]
+}
